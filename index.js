@@ -51,6 +51,8 @@ function applyFilters() {
             return posicion.includes('senador');
         } else if (selectedRole === 'Diputado') {
             return posicion.includes('diputado');
+        } else if (selectedRole === 'no-determinado') {
+            return posicion === ''; // Show only candidates with empty position
         }
 
         return false;
@@ -83,9 +85,10 @@ function createCandidateCard(candidate) {
     const photoClass = candidate.foto ? '' : 'no-image';
 
     const posicion = candidate.posicion_postulando || 'No determinado';
+    const googleNewsUrl = `https://news.google.com/search?q=${encodeURIComponent(candidate.nombre + ' Peru')}&hl=es&gl=PE`;
 
     return `
-        <div class="candidate-card">
+        <a href="${googleNewsUrl}" target="_blank" class="candidate-card" title="Buscar noticias sobre ${escapeHtml(candidate.nombre)}">
             <div class="candidate-photo ${photoClass}">
                 ${photoHtml}
             </div>
@@ -97,7 +100,7 @@ function createCandidateCard(candidate) {
                     </div>
                 </div>
             </div>
-        </div>
+        </a>
     `;
 }
 
