@@ -160,32 +160,32 @@
     {
       "nombre": "José Luis Elías Ávalos",
       "posicion_postulando": "",
-      "foto": null
+      "foto": "images/jose-elias-avalos.jpeg"
     },
     {
       "nombre": "Katy Ugarte",
       "posicion_postulando": "",
-      "foto": null
+      "foto": "images/katy-ugarte.jpeg"
     },
     {
       "nombre": "Kelly Portalatino",
       "posicion_postulando": "Senador",
-      "foto": null
+      "foto": "images/kelly-portalatino.jpg"
     },
     {
       "nombre": "Lady Camones",
       "posicion_postulando": "Senador",
-      "foto": null
+      "foto": "images/lady-camones.jpeg"
     },
     {
       "nombre": "Luis Kamiche",
       "posicion_postulando": "",
-      "foto": null
+      "foto": "images/luis-kamiche.jpeg"
     },
     {
       "nombre": "Magaly Ruiz",
       "posicion_postulando": "Senador",
-      "foto": null
+      "foto": "images/magaly-ruiz.jpg"
     },
     {
       "nombre": "Martha Moyano",
@@ -195,27 +195,27 @@
     {
       "nombre": "María Acuña",
       "posicion_postulando": "Senador",
-      "foto": null
+      "foto": "images/maria-acuna.jpeg"
     },
     {
       "nombre": "María Agüero",
       "posicion_postulando": "Senador",
-      "foto": null
+      "foto": "images/maria-aguero.jpg"
     },
     {
       "nombre": "María Zeta",
       "posicion_postulando": "",
-      "foto": null
+      "foto": "images/maria-zeta.jpg"
     },
     {
       "nombre": "Mery Infantes",
       "posicion_postulando": "",
-      "foto": null
+      "foto": "images/mery-infantes.jpeg"
     },
     {
       "nombre": "Nelcy Heidinger",
       "posicion_postulando": "",
-      "foto": null
+      "foto": "images/nelcy-heidinger.jpg"
     },
     {
       "nombre": "Nilza Chacón",
@@ -225,52 +225,52 @@
     {
       "nombre": "Patricia Chirinos",
       "posicion_postulando": "Senador",
-      "foto": null
+      "foto": "images/patricia-chirinos.jpg"
     },
     {
       "nombre": "Patricia Juárez",
       "posicion_postulando": "Senador",
-      "foto": null
+      "foto": "images/patricia-juarez.jpeg"
     },
     {
       "nombre": "Raúl Huamán",
       "posicion_postulando": "Senador",
-      "foto": null
+      "foto": "images/raul-huaman.jpg"
     },
     {
       "nombre": "Rosangella Barbarán",
       "posicion_postulando": "",
-      "foto": null
+      "foto": "images/rosangella-barbaran.jpeg"
     },
     {
       "nombre": "Rosselli Amuruz",
       "posicion_postulando": "",
-      "foto": null
+      "foto": "images/rosselli-amuruz.jpg"
     },
     {
       "nombre": "Rosío Torres",
       "posicion_postulando": "Senador",
-      "foto": null
+      "foto": "images/rosio-torres.jpg"
     },
     {
       "nombre": "Segundo Montalvo",
       "posicion_postulando": "",
-      "foto": null
+      "foto": "images/segundo-montalvo.jpeg"
     },
     {
       "nombre": "Segundo Quiroz",
       "posicion_postulando": "",
-      "foto": null
+      "foto": "images/segundo-quiroz.jpg"
     },
     {
       "nombre": "Sigrid Bazán",
       "posicion_postulando": "",
-      "foto": null
+      "foto": "images/sigrid-bazan.jpg"
     },
     {
       "nombre": "Tania Ramírez",
       "posicion_postulando": "",
-      "foto": null
+      "foto": "images/tania-ramirez.jpg"
     },
     {
       "nombre": "Víctor Flores",
@@ -280,12 +280,12 @@
     {
       "nombre": "Waldemar Cerrón Rojas",
       "posicion_postulando": "Senador",
-      "foto": null
+      "foto": "images/waldemar-cerron-rojas.jpeg"
     },
     {
       "nombre": "Wilson Soto",
       "posicion_postulando": "",
-      "foto": null
+      "foto": "images/wilson-soto.avif"
     }
   ]
 }
