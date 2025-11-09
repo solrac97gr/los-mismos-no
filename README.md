@@ -8,11 +8,18 @@ This project aims to increase transparency and public awareness about congressio
 
 ## ✨ Features
 
-- **Card-Based Layout**: Clean, modern interface displaying candidates as interactive cards
-- **Dynamic Filtering**: Filter candidates by political party and position (Senator/Deputy)
-- **Photo Support**: Display candidate photos (optional)
+- **Card-Based Layout**: Clean, modern interface displaying candidates as interactive cards with hover effects
+- **Smart Filtering**:
+  - Filter by position (Senadores, Diputados, or No determinado)
+  - Automatically groups masculine/feminine forms (Senador & Senadora = Senadores)
+  - Candidates sorted alphabetically by name - no bias
+- **Google News Integration**: Click any candidate card to search Spanish-language Peru news
+  - Searches with Spanish language (`hl=es`) and Peru locale (`gl=PE`)
+  - Opens in new tab for seamless research
+- **No Political Party Display**: Focus on candidates and their target positions, not their party affiliation
+- **Photo Support**: Display candidate photos (optional) - use relative paths like `images/candidate-name.jpg`
 - **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
-- **GitHub Integration**: Easy contribution process via GitHub issues
+- **GitHub Integration**: Easy contribution process via pre-filled GitHub issues
 - **Real-time Updates**: Simple JSON-based data that can be updated frequently
 
 ## 🗂️ Project Structure
@@ -24,6 +31,8 @@ los-mismo-no/
 ├── index.js            # Application logic
 ├── db/
 │   └── db.json         # Candidate database
+├── images/             # Candidate photos directory
+│   └── candidate-name.jpg
 ├── README.md           # This file
 └── CLAUDE.md          # Development guidance
 ```
@@ -38,10 +47,10 @@ The database (`db/db.json`) contains:
   "fecha_actualizacion": "2025-11-09",
   "congresistas": [
     {
-      "nombre": "Candidate Name",
-      "partido_politico": "Political Party",
-      "informacion_adicional": "Position and additional info",
-      "foto": null
+      "nombre": "Alejandro Aguinaga",
+      "partido_politico": "Fuerza Popular",
+      "posicion_postulando": "Senador",
+      "foto": "images/alejandro-aguinaga.jpg"
     }
   ]
 }
@@ -52,9 +61,15 @@ The database (`db/db.json`) contains:
 | Field | Type | Description |
 |-------|------|-------------|
 | `nombre` | string | Full name of the candidate |
-| `partido_politico` | string | Political party affiliation |
-| `informacion_adicional` | string | Current/target position and notes |
-| `foto` | string/null | URL to candidate photo (optional) |
+| `partido_politico` | string | Political party affiliation (kept for reference but not displayed) |
+| `posicion_postulando` | string | Position running for: `"Senador"`, `"Diputado"`, or `""` (empty for unknown) |
+| `foto` | string/null | URL to candidate photo (optional) - use relative path like `images/candidate-name.jpg` |
+
+### Position Values
+
+- **`"Senador"`** - Running for Senate (includes both Senador & Senadora)
+- **`"Diputado"`** - Running for Deputy position (includes both Diputado & Diputada)
+- **`""`** (empty string) - Position not determined yet (displays as "No determinado")
 
 ## 🚀 Getting Started
 
@@ -95,19 +110,23 @@ Edit `db/db.json` directly and add/update candidate entries:
 {
   "nombre": "Juan Pérez",
   "partido_politico": "Fuerza Popular",
-  "informacion_adicional": "Senador, Expresidente del Congreso",
-  "foto": "https://example.com/juan-perez.jpg"
+  "posicion_postulando": "Senador",
+  "foto": "images/juan-perez.jpg"
 }
 ```
+
+**Important Notes:**
+- `posicion_postulando` must be exactly: `"Senador"`, `"Diputado"`, or `""` (empty string)
+- Photos should be stored in the `images/` folder with relative paths like `images/candidate-name.jpg`
+- Keep candidate names exactly as written (including special characters)
 
 ### Option 2: GitHub Issues
 
 Click the **"Crear issue para agregar candidato"** button on the website. This opens a pre-filled GitHub issue template where you can provide:
 - Candidate name
 - Political party
-- Target position
-- Photo URL
-- Additional information
+- Target position (Senador, Diputado, or leave blank if unknown)
+- Photo URL (or attach image to the issue)
 
 ## 🎨 Customization
 
@@ -122,10 +141,10 @@ Edit `index.css` to customize:
 ### Adding Features
 
 Edit `index.js` to:
-- Add new filter options
-- Implement sorting functionality
-- Add more candidate details
-- Integrate with external APIs
+- Modify filter options (currently filters by position)
+- Change the Google News search parameters
+- Add additional display fields
+- Implement new sorting or grouping logic
 
 ## 🌐 Deployment
 
@@ -157,10 +176,14 @@ Your site will be live at: `https://solrac97gr.github.io/los-mismo-no`
 
 Contributions are welcome! You can:
 
-1. **Add candidates** via the GitHub issue button on the website
-2. **Contribute photos** by creating a PR with photo URLs
+1. **Add candidates** via the GitHub issue button on the website (fastest way)
+2. **Contribute photos**:
+   - Add images to the `images/` folder
+   - Update the `foto` field in `db/db.json` with the relative path (e.g., `images/candidate-name.jpg`)
+   - Submit a PR
 3. **Report issues** if you find bugs or have suggestions
 4. **Improve design/features** by opening a discussion or PR
+5. **Update candidate positions** when they change (Senador → Diputado, etc.)
 
 ## 📄 License
 

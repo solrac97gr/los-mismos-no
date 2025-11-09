@@ -4,6 +4,7 @@ let filteredCandidates = [];
 
 // DOM Elements
 const candidatesContainer = document.getElementById('candidatesContainer');
+const filterNameInput = document.getElementById('filterName');
 const filterRoleSelect = document.getElementById('filterRole');
 const updateDateElement = document.getElementById('updateDate');
 
@@ -33,29 +34,47 @@ async function init() {
 
 // Setup event listeners for filters
 function setupEventListeners() {
+    filterNameInput.addEventListener('input', applyFilters);
     filterRoleSelect.addEventListener('change', applyFilters);
+}
+
+// Normalize text: remove accents and convert to lowercase
+function normalizeText(text) {
+    return text
+        .toLowerCase()
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, ''); // Remove diacritical marks
 }
 
 // Apply filters and re-render
 function applyFilters() {
     const selectedRole = filterRoleSelect.value;
+    const searchName = filterNameInput.value;
+    const normalizedSearch = normalizeText(searchName);
 
     filteredCandidates = allCandidates.filter(candidate => {
-        if (!selectedRole) {
-            return true; // Show all if no filter selected
+        // Filter by name
+        if (searchName) {
+            const normalizedCandidateName = normalizeText(candidate.nombre);
+            if (!normalizedCandidateName.includes(normalizedSearch)) {
+                return false;
+            }
         }
 
-        const posicion = candidate.posicion_postulando.toLowerCase();
+        // Filter by role
+        if (selectedRole) {
+            const posicion = candidate.posicion_postulando.toLowerCase();
 
-        if (selectedRole === 'Senador') {
-            return posicion.includes('senador');
-        } else if (selectedRole === 'Diputado') {
-            return posicion.includes('diputado');
-        } else if (selectedRole === 'no-determinado') {
-            return posicion === ''; // Show only candidates with empty position
+            if (selectedRole === 'Senador') {
+                if (!posicion.includes('senador')) return false;
+            } else if (selectedRole === 'Diputado') {
+                if (!posicion.includes('diputado')) return false;
+            } else if (selectedRole === 'no-determinado') {
+                if (posicion !== '') return false; // Show only candidates with empty position
+            }
         }
 
-        return false;
+        return true;
     });
 
     renderCandidates();

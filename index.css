@@ -77,22 +77,33 @@ body {
     color: var(--text-dark);
 }
 
-.filter-group select {
+.filter-group select,
+.filter-group input {
     padding: 10px 15px;
     border: 2px solid var(--border-color);
     border-radius: 6px;
     font-size: 1rem;
-    cursor: pointer;
     background-color: var(--bg-white);
     color: var(--text-dark);
     transition: border-color 0.3s, box-shadow 0.3s;
 }
 
-.filter-group select:hover {
+.filter-group select {
+    cursor: pointer;
+}
+
+.filter-group input {
+    width: 100%;
+    font-family: inherit;
+}
+
+.filter-group select:hover,
+.filter-group input:hover {
     border-color: var(--secondary-color);
 }
 
-.filter-group select:focus {
+.filter-group select:focus,
+.filter-group input:focus {
     outline: none;
     border-color: var(--secondary-color);
     box-shadow: 0 0 0 3px rgba(231, 76, 60, 0.1);
