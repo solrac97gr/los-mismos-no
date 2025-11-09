@@ -4,7 +4,6 @@ let filteredCandidates = [];
 
 // DOM Elements
 const candidatesContainer = document.getElementById('candidatesContainer');
-const filterPartySelect = document.getElementById('filterParty');
 const filterRoleSelect = document.getElementById('filterRole');
 const updateDateElement = document.getElementById('updateDate');
 
@@ -21,9 +20,6 @@ async function init() {
         // Update the date
         updateDateElement.textContent = data.fecha_actualizacion || '--';
 
-        // Populate party filter
-        populatePartyFilter();
-
         // Render candidates
         renderCandidates();
 
@@ -35,34 +31,29 @@ async function init() {
     }
 }
 
-// Populate the party filter dropdown
-function populatePartyFilter() {
-    const parties = new Set(allCandidates.map(c => c.partido_politico));
-    const sortedParties = Array.from(parties).sort();
-
-    sortedParties.forEach(party => {
-        const option = document.createElement('option');
-        option.value = party;
-        option.textContent = party;
-        filterPartySelect.appendChild(option);
-    });
-}
-
 // Setup event listeners for filters
 function setupEventListeners() {
-    filterPartySelect.addEventListener('change', applyFilters);
     filterRoleSelect.addEventListener('change', applyFilters);
 }
 
 // Apply filters and re-render
 function applyFilters() {
-    const selectedParty = filterPartySelect.value;
     const selectedRole = filterRoleSelect.value;
 
     filteredCandidates = allCandidates.filter(candidate => {
-        const matchParty = !selectedParty || candidate.partido_politico === selectedParty;
-        const matchRole = !selectedRole || candidate.informacion_adicional.includes(selectedRole);
-        return matchParty && matchRole;
+        if (!selectedRole) {
+            return true; // Show all if no filter selected
+        }
+
+        const posicion = candidate.posicion_postulando.toLowerCase();
+
+        if (selectedRole === 'Senador') {
+            return posicion.includes('senador');
+        } else if (selectedRole === 'Diputado') {
+            return posicion.includes('diputado');
+        }
+
+        return false;
     });
 
     renderCandidates();
@@ -74,7 +65,7 @@ function renderCandidates() {
         candidatesContainer.innerHTML = `
             <div class="empty-state" style="grid-column: 1 / -1;">
                 <h2>No hay candidatos que coincidan con los filtros</h2>
-                <p>Intenta cambiar los criterios de búsqueda</p>
+                <p>Intenta cambiar los criterios de bï¿½squeda</p>
             </div>
         `;
         return;
@@ -87,9 +78,11 @@ function renderCandidates() {
 function createCandidateCard(candidate) {
     const photoHtml = candidate.foto
         ? `<img src="${escapeHtml(candidate.foto)}" alt="${escapeHtml(candidate.nombre)}">`
-        : '<span>=÷</span>';
+        : '<span>=ï¿½</span>';
 
     const photoClass = candidate.foto ? '' : 'no-image';
+
+    const posicion = candidate.posicion_postulando || 'No determinado';
 
     return `
         <div class="candidate-card">
@@ -98,11 +91,9 @@ function createCandidateCard(candidate) {
             </div>
             <div class="candidate-info">
                 <h3 class="candidate-name">${escapeHtml(candidate.nombre)}</h3>
-                <span class="candidate-party">${escapeHtml(candidate.partido_politico)}</span>
                 <div class="candidate-details">
                     <div class="detail-item">
-                        <span class="detail-label">Cargo:</span>
-                        <span class="detail-value">${escapeHtml(candidate.informacion_adicional)}</span>
+                        <span class="detail-value">${escapeHtml(posicion)}</span>
                     </div>
                 </div>
             </div>

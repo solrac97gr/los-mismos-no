@@ -157,19 +157,7 @@ body {
     font-size: 1.3rem;
     font-weight: 700;
     color: var(--text-dark);
-    margin-bottom: 10px;
-}
-
-.candidate-party {
-    display: inline-block;
-    background-color: var(--bg-light);
-    color: var(--secondary-color);
-    padding: 6px 12px;
-    border-radius: 20px;
-    font-size: 0.85rem;
-    font-weight: 600;
     margin-bottom: 15px;
-    border: 1px solid var(--secondary-color);
 }
 
 .candidate-details {

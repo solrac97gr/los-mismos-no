@@ -3,345 +3,288 @@
   "fecha_actualizacion": "2025-11-09",
   "congresistas": [
     {
+      "nombre": "Adriana Tudela",
+      "posicion_postulando": "",
+      "foto": "images/adriana-tudela.jpg"
+    },
+    {
       "nombre": "Alejandro Aguinaga",
-      "partido_politico": "Fuerza Popular",
-      "informacion_adicional": "Senador",
-      "foto": null
+      "posicion_postulando": "Senador",
+      "foto": "images/alejandro-aguinaga.jpg"
     },
     {
-      "nombre": "Ernesto Bustamante",
-      "partido_politico": "Fuerza Popular",
-      "informacion_adicional": "Senador",
-      "foto": null
+      "nombre": "Alejandro Cavero",
+      "posicion_postulando": "Diputado",
+      "foto": "images/alejandro-cavero.jpg"
     },
     {
-      "nombre": "Fernando Rospigliosi",
-      "partido_politico": "Fuerza Popular",
-      "informacion_adicional": "Senador",
-      "foto": null
-    },
-    {
-      "nombre": "Héctor Ventura",
-      "partido_politico": "Fuerza Popular",
-      "informacion_adicional": "Senador",
-      "foto": null
-    },
-    {
-      "nombre": "Martha Moyano",
-      "partido_politico": "Fuerza Popular",
-      "informacion_adicional": "Senadora",
-      "foto": null
-    },
-    {
-      "nombre": "Víctor Flores",
-      "partido_politico": "Fuerza Popular",
-      "informacion_adicional": "Senador",
-      "foto": null
-    },
-    {
-      "nombre": "Nilza Chacón",
-      "partido_politico": "Fuerza Popular",
-      "informacion_adicional": "Senadora",
-      "foto": null
-    },
-    {
-      "nombre": "Raúl Huamán",
-      "partido_politico": "Fuerza Popular",
-      "informacion_adicional": "Senador",
-      "foto": null
-    },
-    {
-      "nombre": "David Jiménez",
-      "partido_politico": "Fuerza Popular",
-      "informacion_adicional": "Senador",
-      "foto": null
-    },
-    {
-      "nombre": "Patricia Juárez",
-      "partido_politico": "Fuerza Popular",
-      "informacion_adicional": "Senadora",
-      "foto": null
-    },
-    {
-      "nombre": "Jeny López",
-      "partido_politico": "Fuerza Popular",
-      "informacion_adicional": "Senadora",
-      "foto": null
-    },
-    {
-      "nombre": "Arturo Alegría",
-      "partido_politico": "Fuerza Popular",
-      "informacion_adicional": "Diputado",
-      "foto": null
-    },
-    {
-      "nombre": "Rosangella Barbarán",
-      "partido_politico": "Fuerza Popular",
-      "informacion_adicional": "Diputada",
-      "foto": null
-    },
-    {
-      "nombre": "Eduardo Castillo",
-      "partido_politico": "Fuerza Popular",
-      "informacion_adicional": "Diputado",
-      "foto": null
-    },
-    {
-      "nombre": "Ana Obando",
-      "partido_politico": "Fuerza Popular",
-      "informacion_adicional": "Diputada",
-      "foto": null
-    },
-    {
-      "nombre": "Mery Infantes",
-      "partido_politico": "Fuerza Popular",
-      "informacion_adicional": "Diputada",
-      "foto": null
-    },
-    {
-      "nombre": "Tania Ramírez",
-      "partido_politico": "Fuerza Popular",
-      "informacion_adicional": "Diputada",
-      "foto": null
-    },
-    {
-      "nombre": "María Zeta",
-      "partido_politico": "Fuerza Popular",
-      "informacion_adicional": "Diputada",
-      "foto": null
-    },
-    {
-      "nombre": "César Revilla",
-      "partido_politico": "Fuerza Popular",
-      "informacion_adicional": "Diputado",
-      "foto": null
-    },
-    {
-      "nombre": "Eduardo Salhuana",
-      "partido_politico": "Alianza para el Progreso",
-      "informacion_adicional": "Expresidente del Congreso 2024-2025, postula a diputado",
-      "foto": null
+      "nombre": "Alejandro Muñante",
+      "posicion_postulando": "",
+      "foto": "images/alejandro-munante.jpg"
     },
     {
       "nombre": "Alejandro Soto",
-      "partido_politico": "Alianza para el Progreso",
-      "informacion_adicional": "Diputado, investigado por 'mochasueldos'",
-      "foto": null
+      "posicion_postulando": "Diputado",
+      "foto": "images/alejandro-soto.jpg"
     },
     {
-      "nombre": "Lady Camones",
-      "partido_politico": "Alianza para el Progreso",
-      "informacion_adicional": "Senadora",
-      "foto": null
+      "nombre": "Alex Paredes",
+      "posicion_postulando": "",
+      "foto": "images/alex-paredes.jpeg"
     },
     {
-      "nombre": "Magaly Ruiz",
-      "partido_politico": "Alianza para el Progreso",
-      "informacion_adicional": "Senadora, investigada por 'mochasueldos'",
-      "foto": null
+      "nombre": "Ana Obando",
+      "posicion_postulando": "",
+      "foto": "images/ana-obando.jpeg"
     },
     {
-      "nombre": "Rosío Torres",
-      "partido_politico": "Alianza para el Progreso",
-      "informacion_adicional": "Senadora, investigada por 'mochasueldos'",
-      "foto": null
+      "nombre": "Arturo Alegría",
+      "posicion_postulando": "Diputado",
+      "foto": "images/arturo-alegria.jpeg"
     },
     {
-      "nombre": "María Acuña",
-      "partido_politico": "Alianza para el Progreso",
-      "informacion_adicional": "Senadora, investigada por 'mochasueldos'",
-      "foto": null
+      "nombre": "César Revilla",
+      "posicion_postulando": "Diputado",
+      "foto": "images/cesar-revilla.jpg"
     },
     {
-      "nombre": "Jorge Marticorena",
-      "partido_politico": "Alianza para el Progreso",
-      "informacion_adicional": "",
-      "foto": null
+      "nombre": "Darwin Espinoza",
+      "posicion_postulando": "",
+      "foto": "images/darwin-espinoza.jpg"
     },
     {
-      "nombre": "Nelcy Heidinger",
-      "partido_politico": "Alianza para el Progreso",
-      "informacion_adicional": "",
-      "foto": null
+      "nombre": "David Jiménez",
+      "posicion_postulando": "Senador",
+      "foto": "images/david-jimenez.jpg"
+    },
+    {
+      "nombre": "Edgar Tello",
+      "posicion_postulando": "",
+      "foto": "images/edgar-tello.jpeg"
+    },
+    {
+      "nombre": "Eduardo Castillo",
+      "posicion_postulando": "Diputado",
+      "foto": "images/eduardo-castillo.jpeg"
+    },
+    {
+      "nombre": "Eduardo Salhuana",
+      "posicion_postulando": "Diputado",
+      "foto": "images/eduardo-salhuana.jpg"
     },
     {
       "nombre": "Elva Julón",
-      "partido_politico": "Alianza para el Progreso",
-      "informacion_adicional": "",
-      "foto": null
+      "posicion_postulando": "",
+      "foto": "images/elva-julon.jpeg"
     },
     {
-      "nombre": "Luis Kamiche",
-      "partido_politico": "Alianza para el Progreso",
-      "informacion_adicional": "",
+      "nombre": "Elvis Vergara",
+      "posicion_postulando": "",
+      "foto": "images/elvis-vergara.jpeg"
+    },
+    {
+      "nombre": "Ernesto Bustamante",
+      "posicion_postulando": "Senador",
+      "foto": "images/ernesto-bustamante.jpg"
+    },
+    {
+      "nombre": "Fernando Rospigliosi",
+      "posicion_postulando": "Senador",
+      "foto": "images/fernando-rospigliosi.jpg"
+    },
+    {
+      "nombre": "Flavio Cruz",
+      "posicion_postulando": "Diputado",
+      "foto": "images/flavio-cruz.jpeg"
+    },
+    {
+      "nombre": "Gladys Echaíz",
+      "posicion_postulando": "",
+      "foto": "images/gladys-echaiz.jpg"
+    },
+    {
+      "nombre": "Guido Bellido",
+      "posicion_postulando": "Senador",
+      "foto": "images/guido-bellido.jpeg"
+    },
+    {
+      "nombre": "Heidy Juárez",
+      "posicion_postulando": "",
+      "foto": "images/heidy-juarez.jpg"
+    },
+    {
+      "nombre": "Hilda Portero",
+      "posicion_postulando": "",
+      "foto": "images/hilda-portero.avif"
+    },
+    {
+      "nombre": "Héctor Ventura",
+      "posicion_postulando": "Senador",
+      "foto": "images/hector-ventura.jpeg"
+    },
+    {
+      "nombre": "Javier Padilla",
+      "posicion_postulando": "",
+      "foto": "images/javier-padilla.jpeg"
+    },
+    {
+      "nombre": "Jeny López",
+      "posicion_postulando": "Senador",
+      "foto": "images/jeny-lopez.jpeg"
+    },
+    {
+      "nombre": "Jorge Marticorena",
+      "posicion_postulando": "",
+      "foto": "images/jorge-marticorena.jpg"
+    },
+    {
+      "nombre": "Jorge Montoya",
+      "posicion_postulando": "Senador",
+      "foto": "images/jorge-montoya.jpeg"
+    },
+    {
+      "nombre": "José Arriola",
+      "posicion_postulando": "Senador",
+      "foto": "images/jose-arriola.jpg"
+    },
+    {
+      "nombre": "José Cueto",
+      "posicion_postulando": "",
+      "foto": "images/jose-cueto.jpg"
+    },
+    {
+      "nombre": "José Jerí Oré",
+      "posicion_postulando": "Senador",
       "foto": null
     },
     {
       "nombre": "José Luis Elías Ávalos",
-      "partido_politico": "Alianza para el Progreso",
-      "informacion_adicional": "",
-      "foto": null
-    },
-    {
-      "nombre": "Waldemar Cerrón Rojas",
-      "partido_politico": "Perú Libre",
-      "informacion_adicional": "Senador, hermano del líder Vladimir Cerrón, investigado",
-      "foto": null
-    },
-    {
-      "nombre": "Kelly Portalatino",
-      "partido_politico": "Perú Libre",
-      "informacion_adicional": "Senadora",
-      "foto": null
-    },
-    {
-      "nombre": "Flavio Cruz",
-      "partido_politico": "Perú Libre",
-      "informacion_adicional": "Portavoz parlamentario, diputado",
-      "foto": null
-    },
-    {
-      "nombre": "María Agüero",
-      "partido_politico": "Perú Libre",
-      "informacion_adicional": "Senadora, investigada por 'mochasueldos'",
-      "foto": null
-    },
-    {
-      "nombre": "Segundo Montalvo",
-      "partido_politico": "Perú Libre",
-      "informacion_adicional": "",
-      "foto": null
-    },
-    {
-      "nombre": "José Arriola",
-      "partido_politico": "Podemos Perú",
-      "informacion_adicional": "Senador, investigado por 'mochasueldos', exintegrante de APP",
-      "foto": null
-    },
-    {
-      "nombre": "Heidy Juárez",
-      "partido_politico": "Podemos Perú",
-      "informacion_adicional": "Diputada, investigada por 'mochasueldos'",
-      "foto": null
-    },
-    {
-      "nombre": "Guido Bellido",
-      "partido_politico": "Podemos Perú",
-      "informacion_adicional": "Senador, expresidente del Consejo de Ministros",
-      "foto": null
-    },
-    {
-      "nombre": "Adriana Tudela",
-      "partido_politico": "Avanza País",
-      "informacion_adicional": "Diputada",
-      "foto": null
-    },
-    {
-      "nombre": "Alejandro Cavero",
-      "partido_politico": "Avanza País",
-      "informacion_adicional": "Diputado",
-      "foto": null
-    },
-    {
-      "nombre": "Rosselli Amuruz",
-      "partido_politico": "Avanza País",
-      "informacion_adicional": "",
-      "foto": null
-    },
-    {
-      "nombre": "Patricia Chirinos",
-      "partido_politico": "Renovación Popular",
-      "informacion_adicional": "Senadora",
-      "foto": null
-    },
-    {
-      "nombre": "Alejandro Muñante",
-      "partido_politico": "Renovación Popular",
-      "informacion_adicional": "Precandidato al Senado",
-      "foto": null
-    },
-    {
-      "nombre": "Hilda Portero",
-      "partido_politico": "Acción Popular",
-      "informacion_adicional": "Diputada, investigada por 'mochasueldos'",
-      "foto": null
-    },
-    {
-      "nombre": "Elvis Vergara",
-      "partido_politico": "Acción Popular",
-      "informacion_adicional": "",
-      "foto": null
-    },
-    {
-      "nombre": "Darwin Espinoza",
-      "partido_politico": "Acción Popular",
-      "informacion_adicional": "",
-      "foto": null
-    },
-    {
-      "nombre": "Wilson Soto",
-      "partido_politico": "Acción Popular",
-      "informacion_adicional": "",
-      "foto": null
-    },
-    {
-      "nombre": "José Jerí Oré",
-      "partido_politico": "Somos Perú",
-      "informacion_adicional": "Presidente del Congreso 2025-2026, senador",
+      "posicion_postulando": "",
       "foto": null
     },
     {
       "nombre": "Katy Ugarte",
-      "partido_politico": "Juntos por el Perú",
-      "informacion_adicional": "Exintegrante del Bloque Magisterial, suspendida 30 días por 'mochasueldos'",
+      "posicion_postulando": "",
+      "foto": null
+    },
+    {
+      "nombre": "Kelly Portalatino",
+      "posicion_postulando": "Senador",
+      "foto": null
+    },
+    {
+      "nombre": "Lady Camones",
+      "posicion_postulando": "Senador",
+      "foto": null
+    },
+    {
+      "nombre": "Luis Kamiche",
+      "posicion_postulando": "",
+      "foto": null
+    },
+    {
+      "nombre": "Magaly Ruiz",
+      "posicion_postulando": "Senador",
+      "foto": null
+    },
+    {
+      "nombre": "Martha Moyano",
+      "posicion_postulando": "Senador",
+      "foto": "images/martha-moyano.jpg"
+    },
+    {
+      "nombre": "María Acuña",
+      "posicion_postulando": "Senador",
+      "foto": null
+    },
+    {
+      "nombre": "María Agüero",
+      "posicion_postulando": "Senador",
+      "foto": null
+    },
+    {
+      "nombre": "María Zeta",
+      "posicion_postulando": "",
+      "foto": null
+    },
+    {
+      "nombre": "Mery Infantes",
+      "posicion_postulando": "",
+      "foto": null
+    },
+    {
+      "nombre": "Nelcy Heidinger",
+      "posicion_postulando": "",
+      "foto": null
+    },
+    {
+      "nombre": "Nilza Chacón",
+      "posicion_postulando": "Senador",
+      "foto": "images/nilza-chacon.jpg"
+    },
+    {
+      "nombre": "Patricia Chirinos",
+      "posicion_postulando": "Senador",
+      "foto": null
+    },
+    {
+      "nombre": "Patricia Juárez",
+      "posicion_postulando": "Senador",
+      "foto": null
+    },
+    {
+      "nombre": "Raúl Huamán",
+      "posicion_postulando": "Senador",
+      "foto": null
+    },
+    {
+      "nombre": "Rosangella Barbarán",
+      "posicion_postulando": "",
+      "foto": null
+    },
+    {
+      "nombre": "Rosselli Amuruz",
+      "posicion_postulando": "",
+      "foto": null
+    },
+    {
+      "nombre": "Rosío Torres",
+      "posicion_postulando": "Senador",
+      "foto": null
+    },
+    {
+      "nombre": "Segundo Montalvo",
+      "posicion_postulando": "",
       "foto": null
     },
     {
       "nombre": "Segundo Quiroz",
-      "partido_politico": "Bloque Magisterial",
-      "informacion_adicional": "",
-      "foto": null
-    },
-    {
-      "nombre": "Alex Paredes",
-      "partido_politico": "Bloque Magisterial",
-      "informacion_adicional": "",
-      "foto": null
-    },
-    {
-      "nombre": "Edgar Tello",
-      "partido_politico": "Bloque Magisterial",
-      "informacion_adicional": "",
-      "foto": null
-    },
-    {
-      "nombre": "Jorge Montoya",
-      "partido_politico": "Honor y Democracia",
-      "informacion_adicional": "Exintegrante de Renovación Popular, senador",
-      "foto": null
-    },
-    {
-      "nombre": "José Cueto",
-      "partido_politico": "Honor y Democracia",
-      "informacion_adicional": "",
-      "foto": null
-    },
-    {
-      "nombre": "Javier Padilla",
-      "partido_politico": "Honor y Democracia",
-      "informacion_adicional": "",
-      "foto": null
-    },
-    {
-      "nombre": "Gladys Echaíz",
-      "partido_politico": "Honor y Democracia",
-      "informacion_adicional": "",
+      "posicion_postulando": "",
       "foto": null
     },
     {
       "nombre": "Sigrid Bazán",
-      "partido_politico": "Bancada Socialista",
-      "informacion_adicional": "Diputada",
+      "posicion_postulando": "",
+      "foto": null
+    },
+    {
+      "nombre": "Tania Ramírez",
+      "posicion_postulando": "",
+      "foto": null
+    },
+    {
+      "nombre": "Víctor Flores",
+      "posicion_postulando": "Senador",
+      "foto": "images/victor-flores.jpg"
+    },
+    {
+      "nombre": "Waldemar Cerrón Rojas",
+      "posicion_postulando": "Senador",
+      "foto": null
+    },
+    {
+      "nombre": "Wilson Soto",
+      "posicion_postulando": "",
       "foto": null
     }
   ]
