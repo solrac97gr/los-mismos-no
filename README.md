@@ -10,6 +10,7 @@ This project aims to increase transparency and public awareness about congressio
 
 - **Card-Based Layout**: Clean, modern interface displaying candidates as interactive cards with hover effects
 - **Smart Filtering**:
+  - Search by name (case-insensitive, accent-insensitive like "hector" matches "Héctor")
   - Filter by position (Senadores, Diputados, or No determinado)
   - Automatically groups masculine/feminine forms (Senador & Senadora = Senadores)
   - Candidates sorted alphabetically by name - no bias
@@ -48,7 +49,6 @@ The database (`db/db.json`) contains:
   "congresistas": [
     {
       "nombre": "Alejandro Aguinaga",
-      "partido_politico": "Fuerza Popular",
       "posicion_postulando": "Senador",
       "foto": "images/alejandro-aguinaga.jpg"
     }
@@ -61,7 +61,6 @@ The database (`db/db.json`) contains:
 | Field | Type | Description |
 |-------|------|-------------|
 | `nombre` | string | Full name of the candidate |
-| `partido_politico` | string | Political party affiliation (kept for reference but not displayed) |
 | `posicion_postulando` | string | Position running for: `"Senador"`, `"Diputado"`, or `""` (empty for unknown) |
 | `foto` | string/null | URL to candidate photo (optional) - use relative path like `images/candidate-name.jpg` |
 
