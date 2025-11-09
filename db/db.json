@@ -1,0 +1,348 @@
+{
+  "titulo": "Congresistas Peruanos Postulando a Senadores y Diputados - Elecciones 2026",
+  "fecha_actualizacion": "2025-11-09",
+  "congresistas": [
+    {
+      "nombre": "Alejandro Aguinaga",
+      "partido_politico": "Fuerza Popular",
+      "informacion_adicional": "Senador",
+      "foto": null
+    },
+    {
+      "nombre": "Ernesto Bustamante",
+      "partido_politico": "Fuerza Popular",
+      "informacion_adicional": "Senador",
+      "foto": null
+    },
+    {
+      "nombre": "Fernando Rospigliosi",
+      "partido_politico": "Fuerza Popular",
+      "informacion_adicional": "Senador",
+      "foto": null
+    },
+    {
+      "nombre": "Héctor Ventura",
+      "partido_politico": "Fuerza Popular",
+      "informacion_adicional": "Senador",
+      "foto": null
+    },
+    {
+      "nombre": "Martha Moyano",
+      "partido_politico": "Fuerza Popular",
+      "informacion_adicional": "Senadora",
+      "foto": null
+    },
+    {
+      "nombre": "Víctor Flores",
+      "partido_politico": "Fuerza Popular",
+      "informacion_adicional": "Senador",
+      "foto": null
+    },
+    {
+      "nombre": "Nilza Chacón",
+      "partido_politico": "Fuerza Popular",
+      "informacion_adicional": "Senadora",
+      "foto": null
+    },
+    {
+      "nombre": "Raúl Huamán",
+      "partido_politico": "Fuerza Popular",
+      "informacion_adicional": "Senador",
+      "foto": null
+    },
+    {
+      "nombre": "David Jiménez",
+      "partido_politico": "Fuerza Popular",
+      "informacion_adicional": "Senador",
+      "foto": null
+    },
+    {
+      "nombre": "Patricia Juárez",
+      "partido_politico": "Fuerza Popular",
+      "informacion_adicional": "Senadora",
+      "foto": null
+    },
+    {
+      "nombre": "Jeny López",
+      "partido_politico": "Fuerza Popular",
+      "informacion_adicional": "Senadora",
+      "foto": null
+    },
+    {
+      "nombre": "Arturo Alegría",
+      "partido_politico": "Fuerza Popular",
+      "informacion_adicional": "Diputado",
+      "foto": null
+    },
+    {
+      "nombre": "Rosangella Barbarán",
+      "partido_politico": "Fuerza Popular",
+      "informacion_adicional": "Diputada",
+      "foto": null
+    },
+    {
+      "nombre": "Eduardo Castillo",
+      "partido_politico": "Fuerza Popular",
+      "informacion_adicional": "Diputado",
+      "foto": null
+    },
+    {
+      "nombre": "Ana Obando",
+      "partido_politico": "Fuerza Popular",
+      "informacion_adicional": "Diputada",
+      "foto": null
+    },
+    {
+      "nombre": "Mery Infantes",
+      "partido_politico": "Fuerza Popular",
+      "informacion_adicional": "Diputada",
+      "foto": null
+    },
+    {
+      "nombre": "Tania Ramírez",
+      "partido_politico": "Fuerza Popular",
+      "informacion_adicional": "Diputada",
+      "foto": null
+    },
+    {
+      "nombre": "María Zeta",
+      "partido_politico": "Fuerza Popular",
+      "informacion_adicional": "Diputada",
+      "foto": null
+    },
+    {
+      "nombre": "César Revilla",
+      "partido_politico": "Fuerza Popular",
+      "informacion_adicional": "Diputado",
+      "foto": null
+    },
+    {
+      "nombre": "Eduardo Salhuana",
+      "partido_politico": "Alianza para el Progreso",
+      "informacion_adicional": "Expresidente del Congreso 2024-2025, postula a diputado",
+      "foto": null
+    },
+    {
+      "nombre": "Alejandro Soto",
+      "partido_politico": "Alianza para el Progreso",
+      "informacion_adicional": "Diputado, investigado por 'mochasueldos'",
+      "foto": null
+    },
+    {
+      "nombre": "Lady Camones",
+      "partido_politico": "Alianza para el Progreso",
+      "informacion_adicional": "Senadora",
+      "foto": null
+    },
+    {
+      "nombre": "Magaly Ruiz",
+      "partido_politico": "Alianza para el Progreso",
+      "informacion_adicional": "Senadora, investigada por 'mochasueldos'",
+      "foto": null
+    },
+    {
+      "nombre": "Rosío Torres",
+      "partido_politico": "Alianza para el Progreso",
+      "informacion_adicional": "Senadora, investigada por 'mochasueldos'",
+      "foto": null
+    },
+    {
+      "nombre": "María Acuña",
+      "partido_politico": "Alianza para el Progreso",
+      "informacion_adicional": "Senadora, investigada por 'mochasueldos'",
+      "foto": null
+    },
+    {
+      "nombre": "Jorge Marticorena",
+      "partido_politico": "Alianza para el Progreso",
+      "informacion_adicional": "",
+      "foto": null
+    },
+    {
+      "nombre": "Nelcy Heidinger",
+      "partido_politico": "Alianza para el Progreso",
+      "informacion_adicional": "",
+      "foto": null
+    },
+    {
+      "nombre": "Elva Julón",
+      "partido_politico": "Alianza para el Progreso",
+      "informacion_adicional": "",
+      "foto": null
+    },
+    {
+      "nombre": "Luis Kamiche",
+      "partido_politico": "Alianza para el Progreso",
+      "informacion_adicional": "",
+      "foto": null
+    },
+    {
+      "nombre": "José Luis Elías Ávalos",
+      "partido_politico": "Alianza para el Progreso",
+      "informacion_adicional": "",
+      "foto": null
+    },
+    {
+      "nombre": "Waldemar Cerrón Rojas",
+      "partido_politico": "Perú Libre",
+      "informacion_adicional": "Senador, hermano del líder Vladimir Cerrón, investigado",
+      "foto": null
+    },
+    {
+      "nombre": "Kelly Portalatino",
+      "partido_politico": "Perú Libre",
+      "informacion_adicional": "Senadora",
+      "foto": null
+    },
+    {
+      "nombre": "Flavio Cruz",
+      "partido_politico": "Perú Libre",
+      "informacion_adicional": "Portavoz parlamentario, diputado",
+      "foto": null
+    },
+    {
+      "nombre": "María Agüero",
+      "partido_politico": "Perú Libre",
+      "informacion_adicional": "Senadora, investigada por 'mochasueldos'",
+      "foto": null
+    },
+    {
+      "nombre": "Segundo Montalvo",
+      "partido_politico": "Perú Libre",
+      "informacion_adicional": "",
+      "foto": null
+    },
+    {
+      "nombre": "José Arriola",
+      "partido_politico": "Podemos Perú",
+      "informacion_adicional": "Senador, investigado por 'mochasueldos', exintegrante de APP",
+      "foto": null
+    },
+    {
+      "nombre": "Heidy Juárez",
+      "partido_politico": "Podemos Perú",
+      "informacion_adicional": "Diputada, investigada por 'mochasueldos'",
+      "foto": null
+    },
+    {
+      "nombre": "Guido Bellido",
+      "partido_politico": "Podemos Perú",
+      "informacion_adicional": "Senador, expresidente del Consejo de Ministros",
+      "foto": null
+    },
+    {
+      "nombre": "Adriana Tudela",
+      "partido_politico": "Avanza País",
+      "informacion_adicional": "Diputada",
+      "foto": null
+    },
+    {
+      "nombre": "Alejandro Cavero",
+      "partido_politico": "Avanza País",
+      "informacion_adicional": "Diputado",
+      "foto": null
+    },
+    {
+      "nombre": "Rosselli Amuruz",
+      "partido_politico": "Avanza País",
+      "informacion_adicional": "",
+      "foto": null
+    },
+    {
+      "nombre": "Patricia Chirinos",
+      "partido_politico": "Renovación Popular",
+      "informacion_adicional": "Senadora",
+      "foto": null
+    },
+    {
+      "nombre": "Alejandro Muñante",
+      "partido_politico": "Renovación Popular",
+      "informacion_adicional": "Precandidato al Senado",
+      "foto": null
+    },
+    {
+      "nombre": "Hilda Portero",
+      "partido_politico": "Acción Popular",
+      "informacion_adicional": "Diputada, investigada por 'mochasueldos'",
+      "foto": null
+    },
+    {
+      "nombre": "Elvis Vergara",
+      "partido_politico": "Acción Popular",
+      "informacion_adicional": "",
+      "foto": null
+    },
+    {
+      "nombre": "Darwin Espinoza",
+      "partido_politico": "Acción Popular",
+      "informacion_adicional": "",
+      "foto": null
+    },
+    {
+      "nombre": "Wilson Soto",
+      "partido_politico": "Acción Popular",
+      "informacion_adicional": "",
+      "foto": null
+    },
+    {
+      "nombre": "José Jerí Oré",
+      "partido_politico": "Somos Perú",
+      "informacion_adicional": "Presidente del Congreso 2025-2026, senador",
+      "foto": null
+    },
+    {
+      "nombre": "Katy Ugarte",
+      "partido_politico": "Juntos por el Perú",
+      "informacion_adicional": "Exintegrante del Bloque Magisterial, suspendida 30 días por 'mochasueldos'",
+      "foto": null
+    },
+    {
+      "nombre": "Segundo Quiroz",
+      "partido_politico": "Bloque Magisterial",
+      "informacion_adicional": "",
+      "foto": null
+    },
+    {
+      "nombre": "Alex Paredes",
+      "partido_politico": "Bloque Magisterial",
+      "informacion_adicional": "",
+      "foto": null
+    },
+    {
+      "nombre": "Edgar Tello",
+      "partido_politico": "Bloque Magisterial",
+      "informacion_adicional": "",
+      "foto": null
+    },
+    {
+      "nombre": "Jorge Montoya",
+      "partido_politico": "Honor y Democracia",
+      "informacion_adicional": "Exintegrante de Renovación Popular, senador",
+      "foto": null
+    },
+    {
+      "nombre": "José Cueto",
+      "partido_politico": "Honor y Democracia",
+      "informacion_adicional": "",
+      "foto": null
+    },
+    {
+      "nombre": "Javier Padilla",
+      "partido_politico": "Honor y Democracia",
+      "informacion_adicional": "",
+      "foto": null
+    },
+    {
+      "nombre": "Gladys Echaíz",
+      "partido_politico": "Honor y Democracia",
+      "informacion_adicional": "",
+      "foto": null
+    },
+    {
+      "nombre": "Sigrid Bazán",
+      "partido_politico": "Bancada Socialista",
+      "informacion_adicional": "Diputada",
+      "foto": null
+    }
+  ]
+}

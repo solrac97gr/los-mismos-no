@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Mismo No - Congresistas que evitan la no reelección</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="title">#LosMismosNo</h1>
+            <p class="subtitle">Congresistas postulando a Senadores y Diputados - Elecciones 2026</p>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="controls">
+                <div class="filter-group">
+                    <label for="filterParty">Filtrar por partido:</label>
+                    <select id="filterParty">
+                        <option value="">Todos</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="filterRole">Filtrar por cargo:</label>
+                    <select id="filterRole">
+                        <option value="">Todos</option>
+                        <option value="Senador">Senador</option>
+                        <option value="Senadora">Senadora</option>
+                        <option value="Diputado">Diputado</option>
+                        <option value="Diputada">Diputada</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="candidatesContainer" class="candidates-grid">
+                <!-- Cards will be inserted here by JavaScript -->
+            </div>
+
+            <div class="add-candidate-section">
+                <p>Falta alguien en la lista?</p>
+                <a href="https://github.com/solrac97gr/los-mismo-no/issues/new?title=Agregar%20candidato&body=Nombre:%20%0APartido%20Pol�tico:%20%0ACargoPostulando:%20%0AFoto%20(URL):%20%0AInformaci�n%20adicional:"
+                   class="btn-add-candidate"
+                   target="_blank">
+                    Crear issue para agregar candidato
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Última actualización: <span id="updateDate">--</span></p>
+            <p><a href="https://github.com/solrac97gr/los-mismo-no" target="_blank">GitHub Repository</a></p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
